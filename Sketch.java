@@ -8,8 +8,8 @@ public class Sketch extends PApplet {
    */
   public void settings() {
 	// put your size call here
-    size(400, 400);
-  }
+    size(900, 900);
+}
 
   /** 
    * Called once at the beginning of execution.  Add initial set up
@@ -40,19 +40,19 @@ public class Sketch extends PApplet {
     
     //flag
     fill(244,0,0);
-    triangle(201,51,200,95,130,80);
+    triangle(width/40*20,height/40*5,width/40*20,height/80*19,width/40*13,height/40*8);
 
     //door
     fill(165,42,42);
-    rect(175,230,32,67);
+    rect(width/80*35,height/40*23,width/200*16,height/200*34);
 
     fill(	255, 165, 0);
-    ellipse(20, 20, 75, 75);
+    ellipse(width/40*2,height/40*2,width/80*15,height/80*15);
 
     //Windows
     fill(255,255,255);
-    rect(90,200,40,40);
-    rect(250,200,40,40);
+    rect(width/40*9,height/40*20,width/40*4,height/40*4);
+    rect(width/40*25,height/40*20,width/40*4,height/40*4);
 
   }
   
